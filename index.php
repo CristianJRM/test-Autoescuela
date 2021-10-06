@@ -1,31 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    
 </head>
-
 <body>
-    <?php
-    include "autoescuela.php";
+    <form action="test.php" method="get">
+        <div class="circulacion">
+            <input type="checkbox" id="circulacion">
+            <label for="circulacion" name="circulacion">
+                <img src="images/circulacion.jpg" alt="">
+            </label>
+        </div>
 
-    ?>
-    <!-- TODO
-    * Mostrar respuesta, siendo en verde si acertó o en rojo si no acertó.
-    * Sumar la puntuación de las respuestas positivas.
-    * Mejorar su aspecto visual con CSS
--->
-    <div class="container">
-        <form action="<?= $_SERVER['PHP_SELF'] ?>">
+        <div class="estacionamiento">
+            <input type="checkbox" id="estacionamiento">
+            <label for="estacionamiento" name="estacionamiento">
+                <img src="images/estacionamiento.jpg" alt="">
+            </label>
+        </div>
 
-            <?php inicializarTest($preguntas); ?>
+        <div class="signal">
+            <input type="checkbox" id="signal">
+            <label for="signal" name="signal">
+                <img src="images/signal.jpg" alt="">
+            </label>
+        </div>
 
-        </form>
-    </div>
+            <button type="submit">¡Generar test!</button>
+    </form>
+    
 </body>
-
 </html>

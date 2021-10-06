@@ -1,0 +1,63 @@
+
+div{
+    height: 30vh;
+    margin-bottom: 2px;
+    width: 100%;
+}
+div::before{
+    content: '<p>Hola</p>';
+    z-index: 5;
+    position: absolute;
+    color: white;
+    line-height: 30vh;
+    font-size: 4rem;
+    text-align: center;
+    width: 100%;
+    pointer-events: none;
+    text-shadow: 2px 2px black;
+}
+.circulacion::before{
+    content: 'Circulación';
+}
+.estacionamiento::before{
+    content: 'Estacionamiento';
+}
+.signal::before{
+    content: 'Señales';
+}
+input{
+    display: none;
+}
+
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    -webkit-filter: brightness(20%);
+    -webkit-transition: 1s all;
+}
+img:hover{
+    cursor: pointer;
+}
+:checked + label img {
+    -webkit-filter: brightness(100%);
+}
+button{
+    display: block;
+    margin: 0 auto;
+    font-size: 1.5rem;
+    background-color: orange;
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+}
+
+@media (min-width: 700px) {
+    div{
+        height: 50vh;
+    }
+    div::before{
+        content: 'Hola';
+        line-height: 50vh;
+    }
+}
