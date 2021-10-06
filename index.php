@@ -14,8 +14,11 @@
     ?>
 
     <div class="container">
-        <?php inicializarTest($preguntas);?>
+        <form action="<?= $_SERVER['PHP_SELF'] ?>">
         
+            <?php inicializarTest($preguntas);?>
+
+        </form>
     </div>
 </body>
 </html>
