@@ -1,9 +1,9 @@
-
 div{
     height: 30vh;
     margin-bottom: 2px;
     width: 100%;
 }
+
 div::before{
     content: '<p>Hola</p>';
     z-index: 5;
@@ -16,15 +16,19 @@ div::before{
     pointer-events: none;
     text-shadow: 2px 2px black;
 }
-.circulacion::before{
-    content: 'Circulación';
-}
-.estacionamiento::before{
-    content: 'Estacionamiento';
-}
-.signal::before{
-    content: 'Señales';
-}
+
+    .circulacion::before{
+        content: 'Circulación';
+    }
+
+    .estacionamiento::before{
+        content: 'Estacionamiento';
+    }
+
+    .signal::before{
+        content: 'Señales';
+    }
+
 input{
     display: none;
 }
@@ -36,12 +40,15 @@ img{
     -webkit-filter: brightness(20%);
     -webkit-transition: 1s all;
 }
+
 img:hover{
     cursor: pointer;
 }
+
 :checked + label img {
     -webkit-filter: brightness(100%);
 }
+
 button{
     display: block;
     margin: 0 auto;
