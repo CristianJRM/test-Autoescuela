@@ -1,6 +1,5 @@
 <?php
 //https://www.todotest.com/tests/test.asp?tip=1&t=116 Test referencia
-// <input type="radio" id="letra" name="numero pregunta">
 //https://www.w3schools.com/html/html_form_input_types.asp
 // devchallenges.io
 $preguntas = [
