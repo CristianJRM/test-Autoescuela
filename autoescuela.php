@@ -2,6 +2,15 @@
 //https://www.todotest.com/tests/test.asp?tip=1&t=116 Test referencia
 //https://www.w3schools.com/html/html_form_input_types.asp
 // devchallenges.io
+
+/**
+ * Propuesta: números = 0, pero cuando se vaya genera es cuando
+ * se asignan los números
+ * Poner tipo a cada pregunta
+ * 12 preguntas de cada tipo
+ * $bateriaDePreguntas
+ * (preguntas de cada tipo = 12/tamaño del post)
+ */
 $preguntas = [
     [
         "num" => "1",

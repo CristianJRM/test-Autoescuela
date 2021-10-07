@@ -1,3 +1,4 @@
+
 div{
     height: 30vh;
     margin-bottom: 2px;
@@ -15,6 +16,7 @@ div::before{
     width: 100%;
     pointer-events: none;
     text-shadow: 2px 2px black;
+    font-family: 'Roboto';
 }
 
     .circulacion::before{

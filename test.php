@@ -18,7 +18,7 @@
     * Mostrar respuesta, siendo en verde si acertó o en rojo si no acertó.
     * Sumar la puntuación de las respuestas positivas.
     * Mejorar su aspecto visual con CSS
--->
+    -->
     <div class="container">
         <form action="<?= $_SERVER['PHP_SELF'] ?>">
 
