@@ -3,15 +3,6 @@
 //https://www.w3schools.com/html/html_form_input_types.asp
 // devchallenges.io
 
-/**
- * Propuesta: números = 0, pero cuando se vaya genera es cuando
- * se asignan los números
- * Poner tipo a cada pregunta
- * 12 preguntas de cada tipo
- * $bateriaDePreguntas
- * (preguntas de cada tipo = 12/tamaño del post)
- */
-
 $preguntasCirculacion = [
     [
         "num" => "1",
@@ -103,7 +94,7 @@ $preguntasCirculacion = [
 
     [
         "num" => "8",
-        "pregunta" => "",
+        "pregunta" => "p8 cir",
         "opciones" =>
         [
             "A" => "",
@@ -483,18 +474,10 @@ $preguntasSignal = [
 
 ];
 function escribirPreguntas($preguntas){
-    /*foreach ($preguntas as $pregunta) {
-        echo '<div class="pregunta" ' . '"pregunta-' . $pregunta['num'] . '"' . ">";
-        echo "<p><span>" . $pregunta['num'] . "</span>" . " " . $pregunta['pregunta'] . "</p>";
-        foreach ($pregunta['opciones'] as $letra => $enunciado) {
-            echo $letra . " ) " . $enunciado . "</br>";
-        }
-        echo "</div>";
-    }*/
 
     for($i = 0; $i < sizeof($preguntas); $i++){
         echo "<div class='pregunta pregunta-$i'>";
-        echo "<p><span>" . $i . "</span>" . " " . $preguntas[$i]['pregunta'] . "</p>";
+        echo "<p><span>" . $i+1 . "</span>" . " " . $preguntas[$i]['pregunta'] . "</p>";
         foreach ($preguntas[$i]['opciones'] as $letra => $enunciado) {
             echo $letra . " ) " . $enunciado . "</br>";
         }
@@ -507,13 +490,12 @@ function inicializarTest($get, $preguntasCirculacion, $preguntasEstacionamiento,
     $numeroParametros = sizeof($get);
 
     foreach(array_keys($get) as $llave){
-            $numeroAleatorioControl = ($numeroParametros>1)?random_int(1, 12/$numeroParametros)-1:0;
-            for($i = $numeroAleatorioControl; $i < $numeroAleatorioControl + 12/$numeroParametros; $i++){
-                array_push($bateriaDePreguntas, ${"preguntas" . $llave}[$i]);
-            }
+        shuffle(${"preguntas" . $llave});
+        for($i = 0; $i < 12/$numeroParametros; $i++){
+            array_push($bateriaDePreguntas, ${"preguntas" . $llave}[$i]);
         }
-        shuffle($bateriaDePreguntas);
-        escribirPreguntas($bateriaDePreguntas);
+    }
+    escribirPreguntas($bateriaDePreguntas);
     }
     
 ?>
