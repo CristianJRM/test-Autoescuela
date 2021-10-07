@@ -500,5 +500,9 @@ function inicializarTest($get, $preguntasCirculacion, $preguntasEstacionamiento,
     escribirPreguntas($bateriaDePreguntas);
     }
     
+
+function corregirExamen($respuestas){
+    var_dump($respuestas);
+}
 ?>
 
