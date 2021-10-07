@@ -20,10 +20,11 @@
     * Mejorar su aspecto visual con CSS
     -->
     <div class="container">
-        <form action="<?= $_SERVER['PHP_SELF'] ?>">
+        <form method="get" action="<?= $_SERVER['PHP_SELF'] ?>">
 
             <?php inicializarTest($_GET, $preguntasCirculacion, $preguntasEstacionamiento, $preguntasSignal); ?>
 
+            <button type="submit">Corregir respuestas</button>
         </form>
     </div>
 </body>
