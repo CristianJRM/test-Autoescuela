@@ -12,24 +12,24 @@
     
 </head>
 <body>
-    <form action="test.php" method="post">
+    <form action="test.php" method="get">
         <div class="circulacion">
-            <input type="checkbox" id="circulacion" name="circulacion">
-            <label for="circulacion">
+            <input type="checkbox" id="Circulacion" name="Circulacion">
+            <label for="Circulacion">
                 <img src="images/circulacion.jpg" alt="">
             </label>
         </div>
 
         <div class="estacionamiento">
-            <input type="checkbox" id="estacionamiento" name="estacionamiento">
-            <label for="estacionamiento">
+            <input type="checkbox" id="Estacionamiento" name="Estacionamiento">
+            <label for="Estacionamiento">
                 <img src="images/estacionamiento.jpg" alt="">
             </label>
         </div>
 
         <div class="signal">
-            <input type="checkbox" id="signal" name="signal">
-            <label for="signal">
+            <input type="checkbox" id="Signal" name="Signal">
+            <label for="Signal">
                 <img src="images/signal.jpg" alt="">
             </label>
         </div>

@@ -22,7 +22,7 @@
     <div class="container">
         <form action="<?= $_SERVER['PHP_SELF'] ?>">
 
-            <?php inicializarTest($_POST); ?>
+            <?php inicializarTest($_GET, $preguntasCirculacion, $preguntasEstacionamiento, $preguntasSignal); ?>
 
         </form>
     </div>

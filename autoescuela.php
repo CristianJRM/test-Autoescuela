@@ -482,21 +482,39 @@ $preguntasSignal = [
     ],
 
 ];
-/*function inicializarTest($preguntas){
-    foreach ($preguntas as $pregunta) {
+function escribirPreguntas($preguntas){
+    /*foreach ($preguntas as $pregunta) {
         echo '<div class="pregunta" ' . '"pregunta-' . $pregunta['num'] . '"' . ">";
         echo "<p><span>" . $pregunta['num'] . "</span>" . " " . $pregunta['pregunta'] . "</p>";
         foreach ($pregunta['opciones'] as $letra => $enunciado) {
             echo $letra . " ) " . $enunciado . "</br>";
         }
         echo "</div>";
-    }
-}*/
+    }*/
 
-function inicializarTest($get){
+    for($i = 0; $i < sizeof($preguntas); $i++){
+        echo "<div class='pregunta pregunta-$i'>";
+        echo "<p><span>" . $i . "</span>" . " " . $preguntas[$i]['pregunta'] . "</p>";
+        foreach ($preguntas[$i]['opciones'] as $letra => $enunciado) {
+            echo $letra . " ) " . $enunciado . "</br>";
+        }
+        echo "</div>";
+    }
+}
+
+function inicializarTest($get, $preguntasCirculacion, $preguntasEstacionamiento, $preguntasSignal){
     $bateriaDePreguntas = [];
     $numeroParametros = sizeof($get);
-    if ($get['circulacion'] == 'on') echo "funca";
-}
+
+    foreach(array_keys($get) as $llave){
+            $numeroAleatorioControl = ($numeroParametros>1)?random_int(1, 12/$numeroParametros)-1:0;
+            for($i = $numeroAleatorioControl; $i < $numeroAleatorioControl + 12/$numeroParametros; $i++){
+                array_push($bateriaDePreguntas, ${"preguntas" . $llave}[$i]);
+            }
+        }
+        shuffle($bateriaDePreguntas);
+        escribirPreguntas($bateriaDePreguntas);
+    }
+    
 ?>
 
