@@ -26,7 +26,7 @@
                 inicializarTest($_GET, $preguntasCirculacion, $preguntasEstacionamiento, $preguntasSignal);
             ?>
 
-            <button type="submit" name="corregir">Corregir respuestas</button>
+            <button type="submit" name="corregir">>Corregir respuestas</button>
         </form>
     </div>
 </body>
