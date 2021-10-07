@@ -93,9 +93,9 @@ $preguntasCirculacion = [
         "pregunta" => "En esta intersección con señal de STOP y buena visibilidad, ¿qué debe hacer?",
         "opciones" =>
         [
-            "A" => "El central para los vehículos más rápidos y el de la derecha para los vehículos lentos.",
-            "B" => "Para adelantar.",
-            "C" => "Para adelantar o cuando las circunstancias del tráfico o de la vía lo aconsejen."
+            "A" => "",
+            "B" => "",
+            "C" => ""
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -103,12 +103,12 @@ $preguntasCirculacion = [
 
     [
         "num" => "8",
-        "pregunta" => "Circulando por una carretera de dos sentidos y tres carriles, dos para mi sentido y uno para el contrario, ¿para qué se utilizará el carril central?",
+        "pregunta" => "",
         "opciones" =>
         [
-            "A" => "El central para los vehículos más rápidos y el de la derecha para los vehículos lentos.",
-            "B" => "Para adelantar.",
-            "C" => "Para adelantar o cuando las circunstancias del tráfico o de la vía lo aconsejen."
+            "A" => "",
+            "B" => "",
+            "C" => ""
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -116,12 +116,12 @@ $preguntasCirculacion = [
 
     [
         "num" => "9",
-        "pregunta" => "Circulando por una carretera de dos sentidos y tres carriles, dos para mi sentido y uno para el contrario, ¿para qué se utilizará el carril central?",
+        "pregunta" => "",
         "opciones" =>
         [
-            "A" => "El central para los vehículos más rápidos y el de la derecha para los vehículos lentos.",
-            "B" => "Para adelantar.",
-            "C" => "Para adelantar o cuando las circunstancias del tráfico o de la vía lo aconsejen."
+            "A" => "",
+            "B" => "",
+            "C" => ""
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -129,12 +129,12 @@ $preguntasCirculacion = [
 
     [
         "num" => "10",
-        "pregunta" => "Circulando por una carretera de dos sentidos y tres carriles, dos para mi sentido y uno para el contrario, ¿para qué se utilizará el carril central?",
+        "pregunta" => "",
         "opciones" =>
         [
-            "A" => "El central para los vehículos más rápidos y el de la derecha para los vehículos lentos.",
-            "B" => "Para adelantar.",
-            "C" => "Para adelantar o cuando las circunstancias del tráfico o de la vía lo aconsejen."
+            "A" => "",
+            "B" => "",
+            "C" => ""
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -142,12 +142,12 @@ $preguntasCirculacion = [
 
     [
         "num" => "11",
-        "pregunta" => "Circulando por una carretera de dos sentidos y tres carriles, dos para mi sentido y uno para el contrario, ¿para qué se utilizará el carril central?",
+        "pregunta" => "",
         "opciones" =>
         [
-            "A" => "El central para los vehículos más rápidos y el de la derecha para los vehículos lentos.",
-            "B" => "Para adelantar.",
-            "C" => "Para adelantar o cuando las circunstancias del tráfico o de la vía lo aconsejen."
+            "A" => "",
+            "B" => "",
+            "C" => ""
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -155,12 +155,12 @@ $preguntasCirculacion = [
 
     [
         "num" => "12",
-        "pregunta" => "Circulando por una carretera de dos sentidos y tres carriles, dos para mi sentido y uno para el contrario, ¿para qué se utilizará el carril central?",
+        "pregunta" => "",
         "opciones" =>
         [
-            "A" => "El central para los vehículos más rápidos y el de la derecha para los vehículos lentos.",
-            "B" => "Para adelantar.",
-            "C" => "Para adelantar o cuando las circunstancias del tráfico o de la vía lo aconsejen."
+            "A" => "",
+            "B" => "",
+            "C" => ""
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -182,12 +182,12 @@ $preguntasEstacionamiento = [
 
     [
         "num" => "2",
-        "pregunta" => "Circulando por una carretera de dos sentidos y tres carriles, dos para mi sentido y uno para el contrario, ¿para qué se utilizará el carril central?",
+        "pregunta" => "",
         "opciones" =>
         [
-            "A" => "El central para los vehículos más rápidos y el de la derecha para los vehículos lentos.",
-            "B" => "Para adelantar.",
-            "C" => "Para adelantar o cuando las circunstancias del tráfico o de la vía lo aconsejen."
+            "A" => "",
+            "B" => "",
+            "C" => ""
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -195,12 +195,12 @@ $preguntasEstacionamiento = [
 
     [
         "num" => "3",
-        "pregunta" => "Circulando por una carretera de dos sentidos y tres carriles, dos para mi sentido y uno para el contrario, ¿para qué se utilizará el carril central?",
+        "pregunta" => "",
         "opciones" =>
         [
-            "A" => "El central para los vehículos más rápidos y el de la derecha para los vehículos lentos.",
-            "B" => "Para adelantar.",
-            "C" => "Para adelantar o cuando las circunstancias del tráfico o de la vía lo aconsejen."
+            "A" => "",
+            "B" => "",
+            "C" => ""
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -208,12 +208,12 @@ $preguntasEstacionamiento = [
 
     [
         "num" => "4",
-        "pregunta" => "Circulando por una carretera de dos sentidos y tres carriles, dos para mi sentido y uno para el contrario, ¿para qué se utilizará el carril central?",
+        "pregunta" => "",
         "opciones" =>
         [
-            "A" => "El central para los vehículos más rápidos y el de la derecha para los vehículos lentos.",
-            "B" => "Para adelantar.",
-            "C" => "Para adelantar o cuando las circunstancias del tráfico o de la vía lo aconsejen."
+            "A" => "",
+            "B" => "",
+            "C" => ""
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -221,12 +221,12 @@ $preguntasEstacionamiento = [
 
     [
         "num" => "5",
-        "pregunta" => "Circulando por una carretera de dos sentidos y tres carriles, dos para mi sentido y uno para el contrario, ¿para qué se utilizará el carril central?",
+        "pregunta" => "",
         "opciones" =>
         [
-            "A" => "El central para los vehículos más rápidos y el de la derecha para los vehículos lentos.",
-            "B" => "Para adelantar.",
-            "C" => "Para adelantar o cuando las circunstancias del tráfico o de la vía lo aconsejen."
+            "A" => "",
+            "B" => "",
+            "C" => ""
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -234,12 +234,12 @@ $preguntasEstacionamiento = [
 
     [
         "num" => "6",
-        "pregunta" => "Circulando por una carretera de dos sentidos y tres carriles, dos para mi sentido y uno para el contrario, ¿para qué se utilizará el carril central?",
+        "pregunta" => "",
         "opciones" =>
         [
-            "A" => "El central para los vehículos más rápidos y el de la derecha para los vehículos lentos.",
-            "B" => "Para adelantar.",
-            "C" => "Para adelantar o cuando las circunstancias del tráfico o de la vía lo aconsejen."
+            "A" => "",
+            "B" => "",
+            "C" => ""
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -247,12 +247,12 @@ $preguntasEstacionamiento = [
 
     [
         "num" => "7",
-        "pregunta" => "Circulando por una carretera de dos sentidos y tres carriles, dos para mi sentido y uno para el contrario, ¿para qué se utilizará el carril central?",
+        "pregunta" => "",
         "opciones" =>
         [
-            "A" => "El central para los vehículos más rápidos y el de la derecha para los vehículos lentos.",
-            "B" => "Para adelantar.",
-            "C" => "Para adelantar o cuando las circunstancias del tráfico o de la vía lo aconsejen."
+            "A" => "",
+            "B" => "",
+            "C" => ""
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -260,12 +260,12 @@ $preguntasEstacionamiento = [
 
     [
         "num" => "8",
-        "pregunta" => "Circulando por una carretera de dos sentidos y tres carriles, dos para mi sentido y uno para el contrario, ¿para qué se utilizará el carril central?",
+        "pregunta" => "",
         "opciones" =>
         [
-            "A" => "El central para los vehículos más rápidos y el de la derecha para los vehículos lentos.",
-            "B" => "Para adelantar.",
-            "C" => "Para adelantar o cuando las circunstancias del tráfico o de la vía lo aconsejen."
+            "A" => "",
+            "B" => "",
+            "C" => ""
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -273,12 +273,12 @@ $preguntasEstacionamiento = [
 
     [
         "num" => "9",
-        "pregunta" => "Circulando por una carretera de dos sentidos y tres carriles, dos para mi sentido y uno para el contrario, ¿para qué se utilizará el carril central?",
+        "pregunta" => "",
         "opciones" =>
         [
-            "A" => "El central para los vehículos más rápidos y el de la derecha para los vehículos lentos.",
-            "B" => "Para adelantar.",
-            "C" => "Para adelantar o cuando las circunstancias del tráfico o de la vía lo aconsejen."
+            "A" => "",
+            "B" => "",
+            "C" => ""
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -286,12 +286,12 @@ $preguntasEstacionamiento = [
 
     [
         "num" => "10",
-        "pregunta" => "Circulando por una carretera de dos sentidos y tres carriles, dos para mi sentido y uno para el contrario, ¿para qué se utilizará el carril central?",
+        "pregunta" => "",
         "opciones" =>
         [
-            "A" => "El central para los vehículos más rápidos y el de la derecha para los vehículos lentos.",
-            "B" => "Para adelantar.",
-            "C" => "Para adelantar o cuando las circunstancias del tráfico o de la vía lo aconsejen."
+            "A" => "",
+            "B" => "",
+            "C" => ""
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -299,12 +299,12 @@ $preguntasEstacionamiento = [
 
     [
         "num" => "11",
-        "pregunta" => "Circulando por una carretera de dos sentidos y tres carriles, dos para mi sentido y uno para el contrario, ¿para qué se utilizará el carril central?",
+        "pregunta" => "",
         "opciones" =>
         [
-            "A" => "El central para los vehículos más rápidos y el de la derecha para los vehículos lentos.",
-            "B" => "Para adelantar.",
-            "C" => "Para adelantar o cuando las circunstancias del tráfico o de la vía lo aconsejen."
+            "A" => "",
+            "B" => "",
+            "C" => ""
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -312,12 +312,12 @@ $preguntasEstacionamiento = [
 
     [
         "num" => "12",
-        "pregunta" => "Circulando por una carretera de dos sentidos y tres carriles, dos para mi sentido y uno para el contrario, ¿para qué se utilizará el carril central?",
+        "pregunta" => "",
         "opciones" =>
         [
-            "A" => "El central para los vehículos más rápidos y el de la derecha para los vehículos lentos.",
-            "B" => "Para adelantar.",
-            "C" => "Para adelantar o cuando las circunstancias del tráfico o de la vía lo aconsejen."
+            "A" => "",
+            "B" => "",
+            "C" => ""
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -340,12 +340,12 @@ $preguntasSignal = [
 
     [
         "num" => "2",
-        "pregunta" => "Circulando por una carretera de dos sentidos y tres carriles, dos para mi sentido y uno para el contrario, ¿para qué se utilizará el carril central?",
+        "pregunta" => "",
         "opciones" =>
         [
-            "A" => "El central para los vehículos más rápidos y el de la derecha para los vehículos lentos.",
-            "B" => "Para adelantar.",
-            "C" => "Para adelantar o cuando las circunstancias del tráfico o de la vía lo aconsejen."
+            "A" => "",
+            "B" => "",
+            "C" => ""
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -353,12 +353,12 @@ $preguntasSignal = [
 
     [
         "num" => "3",
-        "pregunta" => "Circulando por una carretera de dos sentidos y tres carriles, dos para mi sentido y uno para el contrario, ¿para qué se utilizará el carril central?",
+        "pregunta" => "",
         "opciones" =>
         [
-            "A" => "El central para los vehículos más rápidos y el de la derecha para los vehículos lentos.",
-            "B" => "Para adelantar.",
-            "C" => "Para adelantar o cuando las circunstancias del tráfico o de la vía lo aconsejen."
+            "A" => "",
+            "B" => "",
+            "C" => ""
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -366,12 +366,12 @@ $preguntasSignal = [
 
     [
         "num" => "4",
-        "pregunta" => "Circulando por una carretera de dos sentidos y tres carriles, dos para mi sentido y uno para el contrario, ¿para qué se utilizará el carril central?",
+        "pregunta" => "",
         "opciones" =>
         [
-            "A" => "El central para los vehículos más rápidos y el de la derecha para los vehículos lentos.",
-            "B" => "Para adelantar.",
-            "C" => "Para adelantar o cuando las circunstancias del tráfico o de la vía lo aconsejen."
+            "A" => "",
+            "B" => "",
+            "C" => ""
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -379,12 +379,12 @@ $preguntasSignal = [
 
     [
         "num" => "5",
-        "pregunta" => "Circulando por una carretera de dos sentidos y tres carriles, dos para mi sentido y uno para el contrario, ¿para qué se utilizará el carril central?",
+        "pregunta" => "",
         "opciones" =>
         [
-            "A" => "El central para los vehículos más rápidos y el de la derecha para los vehículos lentos.",
-            "B" => "Para adelantar.",
-            "C" => "Para adelantar o cuando las circunstancias del tráfico o de la vía lo aconsejen."
+            "A" => "",
+            "B" => "",
+            "C" => ""
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -392,12 +392,12 @@ $preguntasSignal = [
 
     [
         "num" => "6",
-        "pregunta" => "Circulando por una carretera de dos sentidos y tres carriles, dos para mi sentido y uno para el contrario, ¿para qué se utilizará el carril central?",
+        "pregunta" => "",
         "opciones" =>
         [
-            "A" => "El central para los vehículos más rápidos y el de la derecha para los vehículos lentos.",
-            "B" => "Para adelantar.",
-            "C" => "Para adelantar o cuando las circunstancias del tráfico o de la vía lo aconsejen."
+            "A" => "",
+            "B" => "",
+            "C" => ""
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -405,12 +405,12 @@ $preguntasSignal = [
 
     [
         "num" => "7",
-        "pregunta" => "Circulando por una carretera de dos sentidos y tres carriles, dos para mi sentido y uno para el contrario, ¿para qué se utilizará el carril central?",
+        "pregunta" => "",
         "opciones" =>
         [
-            "A" => "El central para los vehículos más rápidos y el de la derecha para los vehículos lentos.",
-            "B" => "Para adelantar.",
-            "C" => "Para adelantar o cuando las circunstancias del tráfico o de la vía lo aconsejen."
+            "A" => "",
+            "B" => "",
+            "C" => ""
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -418,12 +418,12 @@ $preguntasSignal = [
 
     [
         "num" => "8",
-        "pregunta" => "Circulando por una carretera de dos sentidos y tres carriles, dos para mi sentido y uno para el contrario, ¿para qué se utilizará el carril central?",
+        "pregunta" => "",
         "opciones" =>
         [
-            "A" => "El central para los vehículos más rápidos y el de la derecha para los vehículos lentos.",
-            "B" => "Para adelantar.",
-            "C" => "Para adelantar o cuando las circunstancias del tráfico o de la vía lo aconsejen."
+            "A" => "",
+            "B" => "",
+            "C" => ""
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -431,12 +431,12 @@ $preguntasSignal = [
 
     [
         "num" => "9",
-        "pregunta" => "Circulando por una carretera de dos sentidos y tres carriles, dos para mi sentido y uno para el contrario, ¿para qué se utilizará el carril central?",
+        "pregunta" => "",
         "opciones" =>
         [
-            "A" => "El central para los vehículos más rápidos y el de la derecha para los vehículos lentos.",
-            "B" => "Para adelantar.",
-            "C" => "Para adelantar o cuando las circunstancias del tráfico o de la vía lo aconsejen."
+            "A" => "",
+            "B" => "",
+            "C" => ""
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -444,12 +444,12 @@ $preguntasSignal = [
 
     [
         "num" => "10",
-        "pregunta" => "Circulando por una carretera de dos sentidos y tres carriles, dos para mi sentido y uno para el contrario, ¿para qué se utilizará el carril central?",
+        "pregunta" => "",
         "opciones" =>
         [
-            "A" => "El central para los vehículos más rápidos y el de la derecha para los vehículos lentos.",
-            "B" => "Para adelantar.",
-            "C" => "Para adelantar o cuando las circunstancias del tráfico o de la vía lo aconsejen."
+            "A" => "",
+            "B" => "",
+            "C" => ""
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -457,12 +457,12 @@ $preguntasSignal = [
 
     [
         "num" => "11",
-        "pregunta" => "Circulando por una carretera de dos sentidos y tres carriles, dos para mi sentido y uno para el contrario, ¿para qué se utilizará el carril central?",
+        "pregunta" => "",
         "opciones" =>
         [
-            "A" => "El central para los vehículos más rápidos y el de la derecha para los vehículos lentos.",
-            "B" => "Para adelantar.",
-            "C" => "Para adelantar o cuando las circunstancias del tráfico o de la vía lo aconsejen."
+            "A" => "",
+            "B" => "",
+            "C" => ""
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -470,12 +470,12 @@ $preguntasSignal = [
 
     [
         "num" => "12",
-        "pregunta" => "Circulando por una carretera de dos sentidos y tres carriles, dos para mi sentido y uno para el contrario, ¿para qué se utilizará el carril central?",
+        "pregunta" => "",
         "opciones" =>
         [
-            "A" => "El central para los vehículos más rápidos y el de la derecha para los vehículos lentos.",
-            "B" => "Para adelantar.",
-            "C" => "Para adelantar o cuando las circunstancias del tráfico o de la vía lo aconsejen."
+            "A" => "",
+            "B" => "",
+            "C" => ""
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
