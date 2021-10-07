@@ -478,9 +478,11 @@ function escribirPreguntas($preguntas){
     for($i = 0; $i < sizeof($preguntas); $i++){
         echo "<div class='pregunta pregunta-$i'>";
         echo "<p><span>" . $i+1 . "</span>" . " " . $preguntas[$i]['pregunta'] . "</p>";
+        echo "<ul>";
         foreach ($preguntas[$i]['opciones'] as $letra => $enunciado) {
-            echo $letra . " ) " . $enunciado . "</br>";
+            echo "<li><input type='radio' name='$i'>" . $letra . " ) " . $enunciado . "</li></br>";
         }
+        echo "</ul>";
         echo "</div>";
     }
 }
