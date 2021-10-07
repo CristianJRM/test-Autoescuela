@@ -40,12 +40,12 @@ $preguntasCirculacion = [
 
     [
         "num" => "3",
-        "pregunta" => "Circulando por una carretera de dos sentidos y tres carriles, dos para mi sentido y uno para el contrario, ¿para qué se utilizará el carril central?",
+        "pregunta" => "¿El alcohol influye en la distancia de detención?",
         "opciones" =>
         [
-            "A" => "El central para los vehículos más rápidos y el de la derecha para los vehículos lentos.",
-            "B" => "Para adelantar.",
-            "C" => "Para adelantar o cuando las circunstancias del tráfico o de la vía lo aconsejen."
+            "A" => "Sí, disminuyéndola.",
+            "B" => "Sí, aumentándola.",
+            "C" => "No, la distancia de detención sólo depende de la velocidad.."
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -53,12 +53,11 @@ $preguntasCirculacion = [
 
     [
         "num" => "4",
-        "pregunta" => "Circulando por una carretera de dos sentidos y tres carriles, dos para mi sentido y uno para el contrario, ¿para qué se utilizará el carril central?",
+        "pregunta" => "¿Es recomendable mantener la velocidad indicada por la señal aunque las condiciones de la vía y la circulación sean favorables?",
         "opciones" =>
         [
-            "A" => "El central para los vehículos más rápidos y el de la derecha para los vehículos lentos.",
-            "B" => "Para adelantar.",
-            "C" => "Para adelantar o cuando las circunstancias del tráfico o de la vía lo aconsejen."
+            "A" => "Sí.",
+            "B" => "No, si las condiciones son favorables la recomendación no es aplicable."
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -66,12 +65,12 @@ $preguntasCirculacion = [
 
     [
         "num" => "5",
-        "pregunta" => "Circulando por una carretera de dos sentidos y tres carriles, dos para mi sentido y uno para el contrario, ¿para qué se utilizará el carril central?",
+        "pregunta" => "Un camión de más de 3.500 kg circula por una calzada con 3 carriles para el mismo sentido, ¿por cuál podrá circular?",
         "opciones" =>
         [
-            "A" => "El central para los vehículos más rápidos y el de la derecha para los vehículos lentos.",
-            "B" => "Para adelantar.",
-            "C" => "Para adelantar o cuando las circunstancias del tráfico o de la vía lo aconsejen."
+            "A" => "Por el carril de la izquierda.",
+            "B" => "Por cualquiera de los 3 carriles.",
+            "C" => "Por el derecho y el contiguo."
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -79,12 +78,11 @@ $preguntasCirculacion = [
 
     [
         "num" => "6",
-        "pregunta" => "Circulando por una carretera de dos sentidos y tres carriles, dos para mi sentido y uno para el contrario, ¿para qué se utilizará el carril central?",
+        "pregunta" => "Si tenemos que arrancar nuestro vehículo con nieve en la vía, ¿con qué marcha lo haremos?",
         "opciones" =>
         [
-            "A" => "El central para los vehículos más rápidos y el de la derecha para los vehículos lentos.",
-            "B" => "Para adelantar.",
-            "C" => "Para adelantar o cuando las circunstancias del tráfico o de la vía lo aconsejen."
+            "A" => "Con una marcha larga.",
+            "B" => "Con una marcha corta."
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -92,7 +90,7 @@ $preguntasCirculacion = [
 
     [
         "num" => "7",
-        "pregunta" => "Circulando por una carretera de dos sentidos y tres carriles, dos para mi sentido y uno para el contrario, ¿para qué se utilizará el carril central?",
+        "pregunta" => "En esta intersección con señal de STOP y buena visibilidad, ¿qué debe hacer?",
         "opciones" =>
         [
             "A" => "El central para los vehículos más rápidos y el de la derecha para los vehículos lentos.",
