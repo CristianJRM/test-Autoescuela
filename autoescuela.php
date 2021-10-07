@@ -77,7 +77,7 @@ $preguntas = [
     ],
 ];
 
-function inicializarTest($preguntas){
+/*function inicializarTest($preguntas){
     foreach ($preguntas as $pregunta) {
         echo '<div class="pregunta" ' . '"pregunta-' . $pregunta['num'] . '"' . ">";
         echo "<p><span>" . $pregunta['num'] . "</span>" . " " . $pregunta['pregunta'] . "</p>";
@@ -86,4 +86,12 @@ function inicializarTest($preguntas){
         }
         echo "</div>";
     }
+}*/
+
+function inicializarTest($get){
+    $bateriaDePreguntas = [];
+    $numeroParametros = sizeof($get);
+    if ($get['circulacion'] == 'on') echo "funca";
 }
+?>
+

@@ -12,8 +12,6 @@
     
 </head>
 <body>
-    <!-- Roboto -->
-    
     <form action="test.php" method="post">
         <div class="circulacion">
             <input type="checkbox" id="circulacion" name="circulacion">
@@ -36,7 +34,7 @@
             </label>
         </div>
 
-            <button type="submit">¡Generar test!</button>
+        <button type="submit">¡Generar test!</button>
     </form>
     
 </body>
