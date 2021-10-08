@@ -498,7 +498,7 @@ function inicializarTest($get, $preguntasCirculacion, $preguntasEstacionamiento,
             array_push($bateriaDePreguntas, ${"preguntas" . $llave}[$i]);
         }
     }
-    escribirPreguntas($bateriaDePreguntas);
+    return $bateriaDePreguntas;
     }
     
 

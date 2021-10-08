@@ -23,7 +23,8 @@
         <form method="get" action="correccion.php">
 
             <?php 
-                inicializarTest($_GET, $preguntasCirculacion, $preguntasEstacionamiento, $preguntasSignal);
+                $preguntasGeneradas = inicializarTest($_GET, $preguntasCirculacion, $preguntasEstacionamiento, $preguntasSignal);
+                escribirPreguntas($preguntasGeneradas);
             ?>
 
             <button type="submit" name="corregir">>Corregir respuestas</button>
