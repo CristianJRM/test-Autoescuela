@@ -94,12 +94,12 @@ $preguntasCirculacion = [
 
     [
         "num" => "8",
-        "pregunta" => "p8 cir",
+        "pregunta" => "En una calzada de doble sentido de circulación en la que no 4 están delimitados los carriles, está obligado a circular por",
         "opciones" =>
         [
-            "A" => "",
-            "B" => "",
-            "C" => ""
+            "A" => "el lugar de la calzada que crea más seguro.",
+            "B" => "a derecha, lo más cerca posible del borde de la calzada.",
+            "C" => "el eje imaginario de la calzada."
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -107,12 +107,12 @@ $preguntasCirculacion = [
 
     [
         "num" => "9",
-        "pregunta" => "",
+        "pregunta" => "En caso de condiciones meteorológicas muy desfavorables, como lluvia muy intensa, ¿se puede circular con la luz antiniebla trasera encendida?",
         "opciones" =>
         [
-            "A" => "",
-            "B" => "",
-            "C" => ""
+            "A" => "No, solo puede utilizarse con niebla densa.",
+            "B" => "Sí.",
+            "C" => "Sí, aunque su uso es opcional."
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -120,12 +120,12 @@ $preguntasCirculacion = [
 
     [
         "num" => "10",
-        "pregunta" => "",
+        "pregunta" => "Durante el día, las motocicletas están obligadas a llevar encendida la luz de cruce...",
         "opciones" =>
         [
-            "A" => "",
-            "B" => "",
-            "C" => ""
+            "A" => "cuando circulen por cualquier tipo de vía.",
+            "B" => "cuando circulen por vías interurbanas, solamente.",
+            "C" => "cuando las condiciones climatológicas sean adversas, solamente."
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -133,12 +133,12 @@ $preguntasCirculacion = [
 
     [
         "num" => "11",
-        "pregunta" => "",
+        "pregunta" => "En esta vía se ha habilitado un carril adicional circunstancial, ¿a qué velocidad, como mínimo, deberán circular por dicho carril?",
         "opciones" =>
         [
-            "A" => "",
-            "B" => "",
-            "C" => ""
+            "A" => "60 km/h o inferior si así estuviese señalizado.",
+            "B" => "80 km/h.",
+            "C" => "A la mitad de la genérica señalada para cada categoría de vehículos."
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -146,12 +146,12 @@ $preguntasCirculacion = [
 
     [
         "num" => "12",
-        "pregunta" => "",
+        "pregunta" => "Cuando viaje con su mascota, ¿en qué lugar del vehículo podrá situarse para evitar que interfiera en la conducción?",
         "opciones" =>
         [
-            "A" => "",
-            "B" => "",
-            "C" => ""
+            "A" => "En el asiento delantero ya que si dispone de airbag frontal estará doblemente protegida.",
+            "B" => "Donde no comprometa su seguridad ni la del resto de pasajeros, además de ir sujeta con el dispositivo adecuado.",
+            "C" => "En los asientos traseros sujeta con el cinturón de seguridad como un pasajero más."
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -161,11 +161,12 @@ $preguntasCirculacion = [
 $preguntasEstacionamiento = [
     [
         "num" => "1",
-        "pregunta" => " Circulando por una vía frecuentada por peatones, especialmente niños o ancianos, ¿qué haremos?",
+        "pregunta" => " En esta carretera, ¿dónde se puede estacionar?",
         "opciones" =>
         [
-            "A" => " Reducir la velocidad, incluso llegando a detenerme.",
-            "B" => " Adoptaré las medidas necesarias para su seguridad, sin tener que moderar obligatoriamente la velocidad.",
+            "A" => " Dentro de la vía, en el lado derecho.",
+            "B" => " En ninguna parte; está prohibido estacionar dentro y fuera de la vía.",
+            "C" => "Fuera de la vía, en el lado derecho."
         ],
         "respuesta" => 0,
         "imagen" => "images/1.jpeg"
@@ -173,12 +174,12 @@ $preguntasEstacionamiento = [
 
     [
         "num" => "2",
-        "pregunta" => "",
+        "pregunta" => "En esta calle de sentido único en la que no hay señalización que prohíba estacionar ni marcas viales en la calzada, ¿en qué lado está permitido el estacionamiento?",
         "opciones" =>
         [
-            "A" => "",
-            "B" => "",
-            "C" => ""
+            "A" => "En el lado derecho solamente.",
+            "B" => "En ambos lados, tanto en el derecho como en el izquierdo.",
+            "C" => "En el lado izquierdo solamente."
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -186,12 +187,12 @@ $preguntasEstacionamiento = [
 
     [
         "num" => "3",
-        "pregunta" => "",
+        "pregunta" => "Esta carretera no tiene arcén; ¿puede estacionar a la derecha, fuera de la vía?",
         "opciones" =>
         [
-            "A" => "",
-            "B" => "",
-            "C" => ""
+            "A" => "Sí, porque estoy fuera de la calzada.",
+            "B" => "No, porque es una vía interurbana.",
+            "C" => "Solo si hay una señal que permita expresamente el estacionamiento."
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -199,12 +200,12 @@ $preguntasEstacionamiento = [
 
     [
         "num" => "4",
-        "pregunta" => "",
+        "pregunta" => "La línea de borde de la calzada es discontinua; ¿está permitido estacionar en la parte transitable del arcén?",
         "opciones" =>
         [
-            "A" => "",
-            "B" => "",
-            "C" => ""
+            "A" => "Sí, porque la línea es discontinua.",
+            "B" => "No, está prohibido.",
+            "C" => "Solo para cargar o descargar mercancías."
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -212,12 +213,12 @@ $preguntasEstacionamiento = [
 
     [
         "num" => "5",
-        "pregunta" => "",
+        "pregunta" => "Si su vehículo está provisto de caja de cambios manual, en una calle con pendiente ascendente, ¿cómo debe estacionar?",
         "opciones" =>
         [
-            "A" => "",
-            "B" => "",
-            "C" => ""
+            "A" => "Poniendo el freno de estacionamiento y la primera velocidad.",
+            "B" => "Poniendo el freno de estacionamiento y la marcha atrás.",
+            "C" => "Basta con poner el freno de estacionamiento."
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -225,12 +226,12 @@ $preguntasEstacionamiento = [
 
     [
         "num" => "6",
-        "pregunta" => "",
+        "pregunta" => "¿Cuándo está permitido estacionar en un túnel?",
         "opciones" =>
         [
-            "A" => "",
-            "B" => "",
-            "C" => ""
+            "A" => "Cuando el túnel está suficientemente iluminado.",
+            "B" => "Cuando la calzada tiene dos carriles de circulación para cada sentido.",
+            "C" => "Nunca."
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -238,12 +239,12 @@ $preguntasEstacionamiento = [
 
     [
         "num" => "7",
-        "pregunta" => "",
+        "pregunta" => "¿Está permitido estacionar en las calles residenciales?",
         "opciones" =>
         [
-            "A" => "",
-            "B" => "",
-            "C" => ""
+            "A" => "No, excepto en los lugares señalizados.",
+            "B" => "No, excepto en horas nocturnas.",
+            "C" => "Sí, en cualquier lugar de la vía."
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
