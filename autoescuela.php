@@ -483,8 +483,7 @@ function escribirPreguntas($preguntas){
         foreach ($preguntas[$i]['opciones'] as $letra => $enunciado) {
             echo "<li><input type='radio' name='$i' value='$letra'>" . $letra . " ) " . $enunciado . "</li></br>";
         }
-        echo "</ul>";
-        echo "</div>";
+        echo "</ul></div>";
     }
 }
 
