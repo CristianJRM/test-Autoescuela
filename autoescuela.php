@@ -501,8 +501,14 @@ function inicializarTest($get, $preguntasCirculacion, $preguntasEstacionamiento,
     }
     
 
-function corregirExamen($respuestas){
-    var_dump($respuestas);
+function corregirExamen($preguntas, $respuestas){
+    echo "<pre>";
+    print_r($preguntas); // or var_dump($data);
+    echo "</pre>";
+
+    echo "<pre>";
+    print_r($respuestas); // or var_dump($data);
+    echo "</pre>";
 }
 ?>
 

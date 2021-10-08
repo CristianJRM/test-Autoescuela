@@ -20,21 +20,13 @@
     * Mejorar su aspecto visual con CSS
     -->
     <div class="container">
-        <form method="get" action="<?= $_SERVER['PHP_SELF']?>">
+        <form method="get" action="<?= $_SERVER['PHP_SELF'] ?>">
 
             <?php 
-                session_start();
-                
-                if(isset($_GET['corregir'])){
-                    corregirExamen($_SESSION['preguntasGeneradas'], $_GET);
-                }else{
-                    $preguntasGeneradas = inicializarTest($_GET, $preguntasCirculacion, $preguntasEstacionamiento, $preguntasSignal);
-                    escribirPreguntas($preguntasGeneradas);
-                    $_SESSION['preguntasGeneradas'] = $preguntasGeneradas;
-                }
+                if(!isset($_REQUEST['corregir'])) inicializarTest($_GET, $preguntasCirculacion, $preguntasEstacionamiento, $preguntasSignal);
             ?>
 
-            <button type="submit" name="corregir">>Corregir respuestas</button>
+            <button type="submit" name="corregir">Corregir respuestas</button>
         </form>
     </div>
 </body>
