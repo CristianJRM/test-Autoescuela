@@ -252,12 +252,12 @@ $preguntasEstacionamiento = [
 
     [
         "num" => "8",
-        "pregunta" => "",
+        "pregunta" => "En las isletas de canalización del tráfico situadas en la calzada, ¿se puede parar o estacionar?",
         "opciones" =>
         [
-            "A" => "",
-            "B" => "",
-            "C" => ""
+            "A" => "Ni parar ni estacionar.",
+            "B" => "Sólo parar.",
+            "C" => "Sólo estacionar."
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -265,12 +265,12 @@ $preguntasEstacionamiento = [
 
     [
         "num" => "9",
-        "pregunta" => "",
+        "pregunta" => "Estacionas tu vehículo al anochecer en el arcén de una travesía insuficientemente iluminada. ¿Qué alumbrado deberemos dejar encendido?",
         "opciones" =>
         [
-            "A" => "",
-            "B" => "",
-            "C" => ""
+            "A" => "La señal de emergencia y la luz de estacionamiento.",
+            "B" => "Las luces de cruce y la señal de emergencia.",
+            "C" => "Las luces de posición."
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -278,12 +278,12 @@ $preguntasEstacionamiento = [
 
     [
         "num" => "10",
-        "pregunta" => "",
+        "pregunta" => "¿Qué es una detención?",
         "opciones" =>
         [
-            "A" => "",
-            "B" => "",
-            "C" => ""
+            "A" => "La inmovilización del vehículo por necesidades de la circulación. ",
+            "B" => "Un estacionamiento sin bajar del vehículo. ",
+            "C" => "Una parada por cualquier causa. "
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -291,12 +291,12 @@ $preguntasEstacionamiento = [
 
     [
         "num" => "11",
-        "pregunta" => "",
+        "pregunta" => "Si estaciona en una pendiente ascendiente, está obligado a… ",
         "opciones" =>
         [
-            "A" => "",
-            "B" => "",
-            "C" => ""
+            "A" => "Dejar puesta la primera marcha cuando el vehículo tiene caja de cambios. ",
+            "B" => "Dejar puesta la marcha atrás. ",
+            "C" => "Apoyar la rueda de detrás en la acera. "
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
@@ -304,12 +304,12 @@ $preguntasEstacionamiento = [
 
     [
         "num" => "12",
-        "pregunta" => "",
+        "pregunta" => "¿Cuantas luces de estacionamiento debe tener un vehículo?",
         "opciones" =>
         [
-            "A" => "",
-            "B" => "",
-            "C" => ""
+            "A" => "Tres delanteras y tres traseras ",
+            "B" => "Únicamente dos luces traseras ",
+            "C" => "Dos delanteras y dos traseras"
         ],
         "respuesta" => 0,
         "imagen" => "images/2.jpeg"
