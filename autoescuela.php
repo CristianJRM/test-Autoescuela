@@ -515,6 +515,9 @@ function corregirExamen($preguntas, $respuestas){
             }
             echo "<li><input disabled $checked type='radio' class='$acierto' name='$i' value='$letra'>" . $letra . ") " . $enunciado . "</li></br>";
         }
+        if($acierto == "fallo"){
+            echo "Te has equivado, la respuesta correcta era: " . $preguntas[$i]['respuesta'] . ")" . $preguntas[$i]['opciones'][$preguntas[$i]['respuesta']];
+        }
         echo "</ul></div>";
     }
 }
