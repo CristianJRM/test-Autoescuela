@@ -30,10 +30,10 @@ input[type="radio"]:checked{
 }
 
 input[type="radio"].acierto:checked{
-    box-shadow: 0 0 0 3px green;
+    box-shadow: 0 0 0 2px green;
 }
 input[type="radio"].fallo:checked{
-    box-shadow: 0 0 0 3px red;
+    box-shadow: 0 0 0 2px red;
 }
 
 input[type="radio"].fallo:checked + label{

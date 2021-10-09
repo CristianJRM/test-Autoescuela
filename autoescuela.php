@@ -507,20 +507,25 @@ function corregirExamen($preguntas, $respuestas){
         echo "<p><span>" . $i+1 . "</span>" . " " . $preguntas[$i]['pregunta'] . "</p>";
         echo "<ul>";
         echo "<img src='".$preguntas[$i]['imagen']."'/>";
-        
-        foreach ($preguntas[$i]['opciones'] as $letra => $enunciado) {
-            $checked = "";
-            $acierto = "fallo";
-            if($letra == $respuestas[$i]){
-                $checked = "checked";
-            }if($preguntas[$i]['respuesta'] == $respuestas[$i]){
-                $acierto = "acierto";
-            }
-            echo "<li><input disabled $checked type='radio' class='$acierto' name='$i' value='$letra'>" . "<label for='$letra'>$letra)" . $enunciado. "</label>" . "</li></br>";
-        }
 
-        if($acierto == "fallo"){
-            echo "Te has equivado, la respuesta correcta era: " . $preguntas[$i]['respuesta'] . ")" . $preguntas[$i]['opciones'][$preguntas[$i]['respuesta']];
+        if(isset($respuestas[$i])){
+            foreach ($preguntas[$i]['opciones'] as $letra => $enunciado) {
+                $checked = "";
+                $acierto = "fallo";
+                if($letra == $respuestas[$i]){
+                    $checked = "checked";
+                }if($preguntas[$i]['respuesta'] == $respuestas[$i]){
+                    $acierto = "acierto";
+                }
+                echo "<li><input $checked type='radio' class='$acierto' name='$i' value='$letra'>" . "<label for='$letra'>$letra)" . $enunciado. "</label>" . "</li></br>";
+            }
+            if($acierto == "fallo"){
+                echo "Te has equivado, la respuesta correcta era: " . $preguntas[$i]['respuesta'] . ")" . $preguntas[$i]['opciones'][$preguntas[$i]['respuesta']];
+            }
+        }else{
+            foreach ($preguntas[$i]['opciones'] as $letra => $enunciado){
+                echo "<li><input type='radio' name='$i' value='$letra'>" . "<label for='$letra'>$letra)" . $enunciado. "</label>" . "</li></br>";
+            }
         }
 
         echo "</ul></div>";
