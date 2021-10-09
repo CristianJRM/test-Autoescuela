@@ -509,7 +509,14 @@ function corregirExamen($preguntas, $respuestas){
         echo "<ul>";
         echo "<img src='".$preguntas[$i]['imagen']."'/>";
 
+        /**
+         * TODO:
+         * Optimizar recursos
+         */
         if(isset($respuestas[$i])){
+            if($preguntas[$i]['respuesta'] == $respuestas[$i]) $acertadas++;
+            else $falladas++;
+
             foreach ($preguntas[$i]['opciones'] as $letra => $enunciado) {
                 $checked = "";
                 $acierto = "fallo";
@@ -521,8 +528,7 @@ function corregirExamen($preguntas, $respuestas){
                 echo "<li><input $checked type='radio' class='$acierto' name='$i' value='$letra'>" . "<label for='$letra'>$letra)" . $enunciado. "</label>" . "</li></br>";
             }
             if($acierto == "fallo"){
-                $falladas++;
-                echo "Te has equivado, la respuesta correcta era: " . $preguntas[$i]['respuesta'] . ")" . $preguntas[$i]['opciones'][$preguntas[$i]['respuesta']];
+                echo "¡Incorrecto! La respuesta correcta era: " . $preguntas[$i]['respuesta'] . ")" . $preguntas[$i]['opciones'][$preguntas[$i]['respuesta']];
             }
         }else{
             foreach ($preguntas[$i]['opciones'] as $letra => $enunciado){

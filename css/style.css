@@ -18,8 +18,9 @@ img{
     background-color: #eee;
     border: 6px solid #aaa;
     border-radius: 5px;
-    width: 90%;
-    margin: 1.5rem auto;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 2rem;
 }
 
 ul{
