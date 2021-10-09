@@ -12,7 +12,7 @@ $preguntasCirculacion = [
             "A" => " Reducir la velocidad, incluso llegando a detenerme.",
             "B" => " Adoptaré las medidas necesarias para su seguridad, sin tener que moderar obligatoriamente la velocidad.",
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/1.jpeg"
     ],
 
@@ -25,7 +25,7 @@ $preguntasCirculacion = [
             "B" => "Para adelantar.",
             "C" => "Para adelantar o cuando las circunstancias del tráfico o de la vía lo aconsejen."
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/2.jpeg"
     ],
 
@@ -38,7 +38,7 @@ $preguntasCirculacion = [
             "B" => "Sí, aumentándola.",
             "C" => "No, la distancia de detención sólo depende de la velocidad.."
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/2.jpeg"
     ],
 
@@ -50,7 +50,7 @@ $preguntasCirculacion = [
             "A" => "Sí.",
             "B" => "No, si las condiciones son favorables la recomendación no es aplicable."
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/2.jpeg"
     ],
 
@@ -63,7 +63,7 @@ $preguntasCirculacion = [
             "B" => "Por cualquiera de los 3 carriles.",
             "C" => "Por el derecho y el contiguo."
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/2.jpeg"
     ],
 
@@ -75,7 +75,7 @@ $preguntasCirculacion = [
             "A" => "Con una marcha larga.",
             "B" => "Con una marcha corta."
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/2.jpeg"
     ],
 
@@ -88,7 +88,7 @@ $preguntasCirculacion = [
             "B" => "",
             "C" => ""
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/2.jpeg"
     ],
 
@@ -101,7 +101,7 @@ $preguntasCirculacion = [
             "B" => "a derecha, lo más cerca posible del borde de la calzada.",
             "C" => "el eje imaginario de la calzada."
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/2.jpeg"
     ],
 
@@ -114,7 +114,7 @@ $preguntasCirculacion = [
             "B" => "Sí.",
             "C" => "Sí, aunque su uso es opcional."
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/2.jpeg"
     ],
 
@@ -127,7 +127,7 @@ $preguntasCirculacion = [
             "B" => "cuando circulen por vías interurbanas, solamente.",
             "C" => "cuando las condiciones climatológicas sean adversas, solamente."
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/2.jpeg"
     ],
 
@@ -140,7 +140,7 @@ $preguntasCirculacion = [
             "B" => "80 km/h.",
             "C" => "A la mitad de la genérica señalada para cada categoría de vehículos."
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/2.jpeg"
     ],
 
@@ -153,7 +153,7 @@ $preguntasCirculacion = [
             "B" => "Donde no comprometa su seguridad ni la del resto de pasajeros, además de ir sujeta con el dispositivo adecuado.",
             "C" => "En los asientos traseros sujeta con el cinturón de seguridad como un pasajero más."
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/2.jpeg"
     ],
 ];
@@ -168,7 +168,7 @@ $preguntasEstacionamiento = [
             "B" => " En ninguna parte; está prohibido estacionar dentro y fuera de la vía.",
             "C" => "Fuera de la vía, en el lado derecho."
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/1.jpeg"
     ],
 
@@ -181,7 +181,7 @@ $preguntasEstacionamiento = [
             "B" => "En ambos lados, tanto en el derecho como en el izquierdo.",
             "C" => "En el lado izquierdo solamente."
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/2.jpeg"
     ],
 
@@ -194,7 +194,7 @@ $preguntasEstacionamiento = [
             "B" => "No, porque es una vía interurbana.",
             "C" => "Solo si hay una señal que permita expresamente el estacionamiento."
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/2.jpeg"
     ],
 
@@ -207,7 +207,7 @@ $preguntasEstacionamiento = [
             "B" => "No, está prohibido.",
             "C" => "Solo para cargar o descargar mercancías."
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/2.jpeg"
     ],
 
@@ -220,7 +220,7 @@ $preguntasEstacionamiento = [
             "B" => "Poniendo el freno de estacionamiento y la marcha atrás.",
             "C" => "Basta con poner el freno de estacionamiento."
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/2.jpeg"
     ],
 
@@ -233,7 +233,7 @@ $preguntasEstacionamiento = [
             "B" => "Cuando la calzada tiene dos carriles de circulación para cada sentido.",
             "C" => "Nunca."
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/2.jpeg"
     ],
 
@@ -246,7 +246,7 @@ $preguntasEstacionamiento = [
             "B" => "No, excepto en horas nocturnas.",
             "C" => "Sí, en cualquier lugar de la vía."
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/2.jpeg"
     ],
 
@@ -259,7 +259,7 @@ $preguntasEstacionamiento = [
             "B" => "Sólo parar.",
             "C" => "Sólo estacionar."
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/2.jpeg"
     ],
 
@@ -272,7 +272,7 @@ $preguntasEstacionamiento = [
             "B" => "Las luces de cruce y la señal de emergencia.",
             "C" => "Las luces de posición."
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/2.jpeg"
     ],
 
@@ -285,7 +285,7 @@ $preguntasEstacionamiento = [
             "B" => "Un estacionamiento sin bajar del vehículo. ",
             "C" => "Una parada por cualquier causa. "
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/2.jpeg"
     ],
 
@@ -298,7 +298,7 @@ $preguntasEstacionamiento = [
             "B" => "Dejar puesta la marcha atrás. ",
             "C" => "Apoyar la rueda de detrás en la acera. "
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/2.jpeg"
     ],
 
@@ -311,7 +311,7 @@ $preguntasEstacionamiento = [
             "B" => "Únicamente dos luces traseras ",
             "C" => "Dos delanteras y dos traseras"
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/2.jpeg"
     ],
 
@@ -326,7 +326,7 @@ $preguntasSignal = [
             "A" => " Reducir la velocidad, incluso llegando a detenerme.",
             "B" => " Adoptaré las medidas necesarias para su seguridad, sin tener que moderar obligatoriamente la velocidad.",
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/1.jpeg"
     ],
 
@@ -339,7 +339,7 @@ $preguntasSignal = [
             "B" => "",
             "C" => ""
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/2.jpeg"
     ],
 
@@ -352,7 +352,7 @@ $preguntasSignal = [
             "B" => "",
             "C" => ""
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/2.jpeg"
     ],
 
@@ -365,7 +365,7 @@ $preguntasSignal = [
             "B" => "",
             "C" => ""
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/2.jpeg"
     ],
 
@@ -378,7 +378,7 @@ $preguntasSignal = [
             "B" => "",
             "C" => ""
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/2.jpeg"
     ],
 
@@ -391,7 +391,7 @@ $preguntasSignal = [
             "B" => "",
             "C" => ""
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/2.jpeg"
     ],
 
@@ -404,7 +404,7 @@ $preguntasSignal = [
             "B" => "",
             "C" => ""
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/2.jpeg"
     ],
 
@@ -417,7 +417,7 @@ $preguntasSignal = [
             "B" => "",
             "C" => ""
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/2.jpeg"
     ],
 
@@ -430,7 +430,7 @@ $preguntasSignal = [
             "B" => "",
             "C" => ""
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/2.jpeg"
     ],
 
@@ -443,7 +443,7 @@ $preguntasSignal = [
             "B" => "",
             "C" => ""
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/2.jpeg"
     ],
 
@@ -456,7 +456,7 @@ $preguntasSignal = [
             "B" => "",
             "C" => ""
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/2.jpeg"
     ],
 
@@ -469,13 +469,12 @@ $preguntasSignal = [
             "B" => "",
             "C" => ""
         ],
-        "respuesta" => 0,
+        "respuesta" => "A",
         "imagen" => "images/2.jpeg"
     ],
 
 ];
 function escribirPreguntas($preguntas){
-
     for($i = 0; $i < sizeof($preguntas); $i++){
         echo "<div class='pregunta pregunta-$i'>";
         echo "<p><span>" . $i+1 . "</span>" . " " . $preguntas[$i]['pregunta'] . "</p>";
@@ -502,13 +501,22 @@ function inicializarTest($get, $preguntasCirculacion, $preguntasEstacionamiento,
     
 
 function corregirExamen($preguntas, $respuestas){
-    echo "<pre>";
-    print_r($preguntas); // or var_dump($data);
-    echo "</pre>";
-
-    echo "<pre>";
-    print_r($respuestas); // or var_dump($data);
-    echo "</pre>";
+    for($i = 0; $i < sizeof($preguntas); $i++){
+        echo "<div class='pregunta pregunta-$i'>";
+        echo "<p><span>" . $i+1 . "</span>" . " " . $preguntas[$i]['pregunta'] . "</p>";
+        echo "<ul>";
+        foreach ($preguntas[$i]['opciones'] as $letra => $enunciado) {
+            $checked = "";
+            $acierto = "fallo";
+            if($letra == $respuestas[$i]){
+                $checked = "checked";
+            }if($preguntas[$i]['respuesta'] == $respuestas[$i]){
+                $acierto = "acierto";
+            }
+            echo "<li><input disabled $checked type='radio' class='$acierto' name='$i' value='$letra'>" . $letra . ") " . $enunciado . "</li></br>";
+        }
+        echo "</ul></div>";
+    }
 }
 ?>
 
