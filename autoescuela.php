@@ -502,6 +502,7 @@ function inicializarTest($get, $preguntasCirculacion, $preguntasEstacionamiento,
     
 
 function corregirExamen($preguntas, $respuestas){
+    $falladas = $acertadas = 0;
     for($i = 0; $i < sizeof($preguntas); $i++){
         echo "<div class='pregunta pregunta-$i'>";
         echo "<p><span>" . $i+1 . "</span>" . " " . $preguntas[$i]['pregunta'] . "</p>";
@@ -520,6 +521,7 @@ function corregirExamen($preguntas, $respuestas){
                 echo "<li><input $checked type='radio' class='$acierto' name='$i' value='$letra'>" . "<label for='$letra'>$letra)" . $enunciado. "</label>" . "</li></br>";
             }
             if($acierto == "fallo"){
+                $falladas++;
                 echo "Te has equivado, la respuesta correcta era: " . $preguntas[$i]['respuesta'] . ")" . $preguntas[$i]['opciones'][$preguntas[$i]['respuesta']];
             }
         }else{
@@ -530,6 +532,8 @@ function corregirExamen($preguntas, $respuestas){
 
         echo "</ul></div>";
     }
+    echo "Acertadas: " . $acertadas;
+    echo "</br>Falladas: " . $falladas;
 }
 ?>
 
