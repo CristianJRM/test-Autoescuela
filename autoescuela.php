@@ -25,7 +25,7 @@ $preguntasCirculacion = [
             "B" => "Para adelantar.",
             "C" => "Para adelantar o cuando las circunstancias del tráfico o de la vía lo aconsejen."
         ],
-        "respuesta" => "A",
+        "respuesta" => "C",
         "imagen" => "images/circulacion_2.jpg"
     ],
 
@@ -38,7 +38,7 @@ $preguntasCirculacion = [
             "B" => "Sí, aumentándola.",
             "C" => "No, la distancia de detención sólo depende de la velocidad.."
         ],
-        "respuesta" => "A",
+        "respuesta" => "B",
         "imagen" => "images/circulacion_3.jpg"
     ],
 
@@ -63,7 +63,7 @@ $preguntasCirculacion = [
             "B" => "Por cualquiera de los 3 carriles.",
             "C" => "Por el derecho y el contiguo."
         ],
-        "respuesta" => "A",
+        "respuesta" => "C",
         "imagen" => "images/circulacion_5.jpg"
     ],
 
@@ -320,157 +320,156 @@ $preguntasEstacionamiento = [
 $preguntasSignal = [
     [
         "num" => "1",
-        "pregunta" => " Circulando por una vía frecuentada por peatones, especialmente niños o ancianos, ¿qué haremos?",
+        "pregunta" => "¿Qué le indica esta señal?",
         "opciones" =>
         [
-            "A" => " Reducir la velocidad, incluso llegando a detenerme.",
-            "B" => " Adoptaré las medidas necesarias para su seguridad, sin tener que moderar obligatoriamente la velocidad.",
+            "A" => " Principio de autovía.",
+            "B" => " Principio de autopista o autovía.",
+            "C" => " Principio de autopista"
         ],
-        "respuesta" => "A",
-        "imagen" => "images/1.jpeg"
+        "respuesta" => "C",
+        "imagen" => "images/signal_1.jpg"
     ],
 
     [
         "num" => "2",
-        "pregunta" => "",
+        "pregunta" => "¿Podremos realizar un cambio de dirección a la vista de esta señal?",
         "opciones" =>
         [
-            "A" => "",
-            "B" => "",
-            "C" => ""
+            "A" => "No, sólo podemos continuar de frente.",
+            "B" => "Sí, tanto a la derecha como a la izquierda."
         ],
-        "respuesta" => "A",
-        "imagen" => "images/circulacion_1.jpg"
+        "respuesta" => "B",
+        "imagen" => "images/signal_2.jpg"
     ],
 
     [
         "num" => "3",
-        "pregunta" => "",
+        "pregunta" => "¿Qué significa esta señal?",
         "opciones" =>
         [
-            "A" => "",
-            "B" => "",
-            "C" => ""
+            "A" => "Prohibido estacionar por vado.",
+            "B" => "Estacionamiento limitado en tiempo.",
+            "C" => "Estacionamiento prohibido."
         ],
-        "respuesta" => "A",
-        "imagen" => "images/circulacion_1.jpg"
+        "respuesta" => "B",
+        "imagen" => "images/signal_3.jpg"
     ],
 
     [
         "num" => "4",
-        "pregunta" => "",
+        "pregunta" => "¿Qué significa esta señal?",
         "opciones" =>
         [
-            "A" => "",
-            "B" => "",
-            "C" => ""
+            "A" => "Recuerda que encendamos las luces de corto alcance.",
+            "B" => "Obliga a encender alguna luz.",
+            "C" => "Obliga a encender la luz de corto alcance, como mínimo."
         ],
-        "respuesta" => "A",
-        "imagen" => "images/circulacion_1.jpg"
+        "respuesta" => "C",
+        "imagen" => "images/signal_4.jpg"
     ],
 
     [
         "num" => "5",
-        "pregunta" => "",
+        "pregunta" => "¿Qué significa esta señal?",
         "opciones" =>
         [
-            "A" => "",
-            "B" => "",
-            "C" => ""
+            "A" => "Calzada de 2 carriles con bifurcación hacia la izquierda.",
+            "B" => "Calzada de 2 carriles con bifurcación hacia la izquierda.",
         ],
-        "respuesta" => "A",
-        "imagen" => "images/circulacion_1.jpg"
+        "respuesta" => "B",
+        "imagen" => "images/signal_5.jpg"
     ],
 
     [
         "num" => "6",
-        "pregunta" => "",
+        "pregunta" => "¿Qué significa esta señal?",
         "opciones" =>
         [
-            "A" => "",
-            "B" => "",
-            "C" => ""
+            "A" => "Puente móvil",
+            "B" => "Paso a nivel con barreras.",
+            "C" => "Pavimento deslizante"
         ],
         "respuesta" => "A",
-        "imagen" => "images/circulacion_1.jpg"
+        "imagen" => "images/signal_6.jpg"
     ],
 
     [
         "num" => "7",
-        "pregunta" => "",
+        "pregunta" => "¿Qué indica esta señal?",
         "opciones" =>
         [
-            "A" => "",
-            "B" => "",
-            "C" => ""
+            "A" => "Salida en autopista, autovía o vía para automóviles a 300 metros y a la derecha.",
+            "B" => "Salida a 300 metros a la izquierda.",
+            "C" => "Paso a nivel a 300 metros."
         ],
         "respuesta" => "A",
-        "imagen" => "images/circulacion_1.jpg"
+        "imagen" => "images/signal_7.jpg"
     ],
 
     [
         "num" => "8",
-        "pregunta" => "",
+        "pregunta" => "¿Qué significa una luz amarilla fija?",
         "opciones" =>
         [
-            "A" => "",
-            "B" => "",
-            "C" => ""
+            "A" => "Extremar la precaución",
+            "B" => "Igual que una luz roja, detenerse en condiciones de seguridad",
+            "C" => "Ceder el paso"
         ],
-        "respuesta" => "A",
-        "imagen" => "images/circulacion_1.jpg"
+        "respuesta" => "B",
+        "imagen" => "images/signal_8.jpg"
     ],
 
     [
         "num" => "9",
-        "pregunta" => "",
+        "pregunta" => "¿Ante una señal de STOP debemos parar?",
         "opciones" =>
         [
-            "A" => "",
-            "B" => "",
-            "C" => ""
+            "A" => "Sí, siempre cediendo el paso.",
+            "B" => "Sí, cuando no haya visibilidad.",
+            "C" => "Sí, cuando no haya peatones."
         ],
         "respuesta" => "A",
-        "imagen" => "images/circulacion_1.jpg"
+        "imagen" => "images/signal_9.jpg"
     ],
 
     [
         "num" => "10",
-        "pregunta" => "",
+        "pregunta" => "¿Qué significa esta señal?",
         "opciones" =>
         [
-            "A" => "",
-            "B" => "",
-            "C" => ""
+            "A" => "Peligro por pérdida de visibilidad.",
+            "B" => "Peligro por niebla.",
+            "C" => "Peligro por lluvia."
         ],
         "respuesta" => "A",
-        "imagen" => "images/circulacion_1.jpg"
+        "imagen" => "images/signal_10.jpg"
     ],
 
     [
         "num" => "11",
-        "pregunta" => "",
+        "pregunta" => "Si un agente está moviendo su brazo de arriba abajo, ¿qué está indicando?",
         "opciones" =>
         [
-            "A" => "",
-            "B" => "",
-            "C" => ""
+            "A" => "Que nos detengamos",
+            "B" => "Que disminuyamos la velocidad",
+            "C" => "Que cambiemos de dirección hacia el lado que tiene el brazo."
         ],
-        "respuesta" => "A",
-        "imagen" => "images/circulacion_1.jpg"
+        "respuesta" => "B",
+        "imagen" => "images/signal_11.jpg"
     ],
 
     [
         "num" => "12",
-        "pregunta" => "",
+        "pregunta" => "¿Qué significan unas luces rojas intermitentes?",
         "opciones" =>
         [
-            "A" => "",
-            "B" => "",
-            "C" => ""
+            "A" => "Paso a nivel cerrado.",
+            "B" => "Prohibición temporal de paso.",
+            "C" => "Pasar con precaución."
         ],
-        "respuesta" => "A",
-        "imagen" => "images/circulacion_1.jpg"
+        "respuesta" => "B",
+        "imagen" => "images/signal_12.jpg"
     ],
 
 ];
