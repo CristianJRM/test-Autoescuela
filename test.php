@@ -33,7 +33,6 @@
                     $_SESSION['preguntasGeneradas'] = $preguntasGeneradas;
                 }
             ?>
-
             <button type="submit" name="corregir">>Corregir respuestas</button>
         </form>
     </div>

@@ -524,14 +524,16 @@ function corregirExamen($preguntas, $respuestas){
                 }if($preguntas[$i]['respuesta'] == $respuestas[$i]){
                     $acierto = "acierto";
                 }
-                echo "<li><input $checked disabled type='radio' class='$acierto' name='$i' value='$letra'>" . "<label for='$letra'>$letra)" . $enunciado. "</label>" . "</li></br>";
+                echo "<li><input $checked disabled type='radio' class='$acierto' name='$i' value='$letra'>" . "<label for='$letra'>$letra) " . $enunciado. "</label>" . "</li></br>";
             }
             if($acierto == "fallo"){
-                echo "¡Incorrecto! La respuesta correcta era: " . $preguntas[$i]['respuesta'] . ")" . $preguntas[$i]['opciones'][$preguntas[$i]['respuesta']];
+                echo "¡Incorrecto! La respuesta correcta era: " . $preguntas[$i]['respuesta'] . ") " . $preguntas[$i]['opciones'][$preguntas[$i]['respuesta']];
+            }else{
+                echo "¡Correcto!";
             }
         }else{
             foreach ($preguntas[$i]['opciones'] as $letra => $enunciado){
-                echo "<li><input disabled type='radio' name='$i' value='$letra'>" . "<label for='$letra'>$letra)" . $enunciado. "</label>" . "</li></br>";
+                echo "<li><input type='radio' name='$i' value='$letra'>" . "<label for='$letra'>$letra)" . $enunciado. "</label>" . "</li></br>";
             }
         }
 
@@ -539,6 +541,26 @@ function corregirExamen($preguntas, $respuestas){
     }
     echo "Acertadas: " . $acertadas;
     echo "</br>Falladas: " . $falladas;
+
+    if(sizeof($preguntas)/2 > $acertadas){
+        echo "<p> ¡Debe mejorar!</p>";
+    }
+
+    imprimirGrafica(sizeof($preguntas), $acertadas, $falladas);
+}
+
+function imprimirGrafica($numPreguntas, $preguntasAcertadas, $preguntasFalladas){
+    echo    "<div>
+                <canvas id='grafica'></canvas>
+            </div>";
+    $etiquetas = ["Aciertos", "Fallos", "Sin responder"];
+    $preguntasSinResponder = $numPreguntas - $preguntasFalladas - $preguntasAcertadas;
+    $valores = [$preguntasAcertadas, $preguntasFalladas, $preguntasSinResponder];
+
+    $respuesta = [
+        "etiquetas" => $etiquetas,
+        "datos" => $valores,
+    ];
 }
 ?>
 
