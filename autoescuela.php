@@ -524,14 +524,14 @@ function corregirExamen($preguntas, $respuestas){
                 }if($preguntas[$i]['respuesta'] == $respuestas[$i]){
                     $acierto = "acierto";
                 }
-                echo "<li><input $checked type='radio' class='$acierto' name='$i' value='$letra'>" . "<label for='$letra'>$letra)" . $enunciado. "</label>" . "</li></br>";
+                echo "<li><input $checked disabled type='radio' class='$acierto' name='$i' value='$letra'>" . "<label for='$letra'>$letra)" . $enunciado. "</label>" . "</li></br>";
             }
             if($acierto == "fallo"){
                 echo "¡Incorrecto! La respuesta correcta era: " . $preguntas[$i]['respuesta'] . ")" . $preguntas[$i]['opciones'][$preguntas[$i]['respuesta']];
             }
         }else{
             foreach ($preguntas[$i]['opciones'] as $letra => $enunciado){
-                echo "<li><input type='radio' name='$i' value='$letra'>" . "<label for='$letra'>$letra)" . $enunciado. "</label>" . "</li></br>";
+                echo "<li><input disabled type='radio' name='$i' value='$letra'>" . "<label for='$letra'>$letra)" . $enunciado. "</label>" . "</li></br>";
             }
         }
 
